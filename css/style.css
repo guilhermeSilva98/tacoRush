@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#gameArea{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #06B3FF;
+  overflow: hidden;
+}
+
+.obj{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  position: absolute;
+  bottom: 160px;
+}
+
+#ground{
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: #EAD475;
+  position: absolute;
+  bottom: 0;
+}
+
+#player{
+  display: block;
+  width: 450px;
+  height: 450px;
+  background: #eee;
+  position: absolute;
+  bottom: 160px;
+  left: 100px;
+  background: url('../img/ryco_running.png');
+  background-position: 0px; 
+}
+
+
